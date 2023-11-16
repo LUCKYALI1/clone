@@ -483,7 +483,7 @@ height: 220vh;
         width: 100vw;
     }
     .sec-container{
-        top: 50px;
+        top: 60px;
         left: 0;
         width: 100vw;
     }
@@ -616,6 +616,22 @@ height: 220vh;
         border-radius: 50%;
 
     }
+    .story-box{
+    position: relative;
+    /* border: 1px solid red; */
+    width: 90px;
+    height: 90px;
+    margin: 2px;
+}
+.story-box>img{
+    position: relative;
+    left: 14px;
+    border-radius: 50%;
+    padding: 2px;
+    width: 70px;
+    height: 70px;
+    border: 2px solid red;
+}
 
 }
 
