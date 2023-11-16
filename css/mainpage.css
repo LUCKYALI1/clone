@@ -620,16 +620,16 @@ height: 220vh;
     position: relative;
     /* border: 1px solid red; */
     width: 90px;
-    height: 90px;
-    margin: 2px;
+    height: 100px;
+    margin: 3px;
 }
 .story-box>img{
     position: relative;
     left: 14px;
     border-radius: 50%;
     padding: 2px;
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     border: 2px solid red;
 }
 
