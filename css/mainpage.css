@@ -469,6 +469,10 @@ height: 220vh;
     .center-story{
         width: 90%;
     }
+    .feed-card{
+        margin: 5px auto;
+        width: 400px;
+    }
    
 }    
 
@@ -559,15 +563,37 @@ height: 220vh;
         width: 20px;
         height: 20px;
     }
+    .post-count{
+        padding: 8px;
+    }
     #middle{
         margin-top: 0px;
         width: 100%;
     }
     .center-story{
-        width: 100%;
+        width
+        : 100%;
+    }
+    .feeds-container{
+        display: flex;
+        flex-direction: column;
     }
     .feed-card{
+        height: 750px;
         width: 100%;
+        max-width: 340px;
+        margin: 2px auto;
+    }.card-post{
+        height: 500px;
+    }
+    .card-post>img {
+        height: 100%;
+       
+        padding:0px;
+        
+    }
+    .post-like-com {
+        padding: 0;
     }
     #bottom-nav{
         position: fixed;
@@ -601,8 +627,8 @@ height: 220vh;
         width: 100%;
     }
     #bott-nav-list>li>a>img{
-        width: 25px;
-        height: 25px;
+        width: 22px;
+        height: 22px;
         
     }
     #bott-nav-list>li{
@@ -617,21 +643,13 @@ height: 220vh;
 
     }
     .story-box{
-    position: relative;
-    /* border: 1px solid red; */
-    width: 90px;
-    height: 100px;
-    margin: 3px;
-}
-.story-box>img{
-    position: relative;
-    left: 14px;
-    border-radius: 50%;
-    padding: 2px;
-    width: 80px;
-    height: 80px;
-    border: 2px solid red;
-}
+        height: 100px;
+    }
+    .story-box>img{
+        width: 70px;
+        height: 70px;
+        left: 0;
+    }
 
 }
 
